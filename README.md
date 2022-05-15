@@ -6,7 +6,7 @@ Contact Email: t.heb1998@gmail.com
 
 ## Instructions and Specifications
 I completed this Assesment in JavaScript using the React library version "^18.1.0" on  visual studio code.
-First npm install in the main folder which should be 'Hebert_Aiko_Assessment'. Once installing has completed type npm start in the main folder and the react application will run at localhost:3000.
+First npm install in the main folder which should be 'Hebert_Aiko_Assessment' or 'Hebert_Aiko_Assessment-main'. Once installing has completed type npm start in the main folder and the react application will run at localhost:3000.
 
 ## Thought Process
 The following is a run down on how I tackled this project:
