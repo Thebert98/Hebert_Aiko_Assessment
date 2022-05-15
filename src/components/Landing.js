@@ -67,7 +67,7 @@ function Landing() {
             <p>Published On: {date}</p>
             <p>Categories:  
                 {categories.map(e=>
-                <span className='category'> {e}, </span>
+                <span className='category'key={e}> {e}, </span>
                 )
             }
             </p>    
@@ -99,7 +99,7 @@ function Landing() {
 
       <ul className = 'blogList'>
           {items.map(e=>
-          <li className='blog'>
+          <li key={e.childNodes[1].innerHTML.split('[')[2].split(']')[0]} className='blog'>
               {getPostData(e)}
             
           </li>
